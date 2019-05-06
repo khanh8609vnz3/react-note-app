@@ -20,7 +20,8 @@ class HomePage extends React.Component {
 	}
 
 	render() {
-		const listNoteRender = this.state.listNote.map((note) => 
+		var listNote = this.state.listNote;
+		const listNoteRender = listNote.map((note) =>
 			<div className="note-item" key={note.id}>
 				<div>Id: {note.id}</div>
 				<div>Name: {note.name}</div>
