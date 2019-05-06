@@ -12,3 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Common CSS */
+.center {
+  text-align: center;
+}
+
+@import "style/HomePage.scss";
